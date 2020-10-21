@@ -41,6 +41,9 @@
     font-display: swap;
 }
 
+ul{
+    list-style: none;
+}
 a{
     color: inherit;
     text-decoration: none;
@@ -60,7 +63,8 @@ body{
 }
 
 .page-section{
-    margin: 200px 0px;
+    margin: 200px auto;
+    max-width: 1920px;
 }
 
 .title{
@@ -145,7 +149,7 @@ body{
 }
 
 .fairy-tail__slider{
-    width: 50%;
+    width:50%
 }
 
 .slick-btn{
@@ -166,3 +170,35 @@ body{
     left: 0;
 }
 
+.fairy-tail__inner{
+    position: relative;
+}
+
+.fairy-tail__container{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px; 
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+}
+
+.fairy-tail__body{
+    width:50%;
+    margin-left: auto;
+    padding-left: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.fairy-tail__body-title{
+    font-family: 'RobotoCondensed-Regular';
+}
+
+.fairy-tail__text{
+    padding: 10px 0px;
+}

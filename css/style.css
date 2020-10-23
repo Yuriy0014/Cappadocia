@@ -83,7 +83,6 @@ body{
     font-family: 'RobotoCondensed-LightItalic';
     display: block;
     margin-top: -30px;
-    margin-left: 180px;
 }
 
 .header{
@@ -201,4 +200,48 @@ body{
 
 .fairy-tail__text{
     padding: 10px 0px;
+}
+
+.fairy-tail__title span{
+        margin-left: 180px;
+    }
+
+.our-trip__slider{
+    width:50%;
+    margin-left: auto;
+}
+
+.our-trip__inner{
+    position: relative;
+}
+
+.our-trip__container{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px; 
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+}
+
+.our-trip__title span{
+    margin-left: 242px;
+}
+
+.our-trip__body{
+    width:50%;
+    margin-right: auto;
+    padding-right: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+}
+
+.our-trip__list{
+    margin: 5px 0;
+    font-style: 24px;
+    line-height: 28px;
 }

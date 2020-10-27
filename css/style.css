@@ -203,8 +203,8 @@ body{
 }
 
 .fairy-tail__title span{
-        margin-left: 180px;
-    }
+    margin-left: 180px;
+}
 
 .our-trip__slider{
     width:50%;
@@ -233,15 +233,29 @@ body{
 .our-trip__body{
     width:50%;
     margin-right: auto;
-    padding-right: 304px;
+    padding-right: 55px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
     height: 100%; 
 }
 
 .our-trip__list{
     margin: 5px 0;
-    font-style: 24px;
+    font-size: 24px;
     line-height: 28px;
+}
+
+.our-trip__list li:first-child{
+    margin-bottom: 20px;
+    font-family: 'RobotoCondensed-Regular';
+}
+
+.our-trip__btn{
+    font-family: 'RobotoCondensed-Light';
+    font-size: 24px;
+    line-height: 28px;
+    border: 1px solid #E2AB3F;
+    padding: 11px 53px;
 }

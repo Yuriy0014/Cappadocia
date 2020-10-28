@@ -286,3 +286,30 @@ body{
 .hotel__gallery a{
     margin-top: 50px;
 }
+
+.price__inner{
+    display: flex;
+}
+
+.price__on-title,
+.price__off-title{
+    font-family: 'RobotoCondensed-Regular';
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 28px; 
+}
+
+.price__on{
+    margin-right: 70px;
+    width: 530px;
+}
+
+.price__list-item{
+    margin-bottom: 20px;
+}
+
+.price{
+    background-image: url(../images/price-bg.png);
+    background-repeat: no-repeat;
+    background-position: 87% 80%;
+}

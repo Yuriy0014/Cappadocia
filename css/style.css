@@ -1,6 +1,8 @@
 *,
 *::after,
 *::before{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -499,13 +501,39 @@ body{
     .our-trip__container{
         position: static;
     }
-    .fairy-tail__slider {
+    .fairy-tail__slider,.our-trip__slider
+    {
         width: 100%;
     }
-    .fairy-tail__body {
+    .fairy-tail__body
+    {
         width: 100%;
         padding-left: 0;
     }
+    .our-trip__body
+    {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .our-trip__btn {
+        margin: 15px 0;
+    }
+    .our-trip__title{
+        margin-bottom: 35px;
+    }
+    .our-trip__list li:first-child {
+        margin: 20px 0;
+    }
+    .our-trip__title span {
+        margin-left: 295px;
+    }
+    .our-trip__slider-item img{
+        height: 85vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
 }
 
 @media (max-width: 840px)
@@ -568,6 +596,22 @@ body{
     .fairy-tail__title span {
         margin-left: 110px;
     }
+    .our-trip__title span{
+        margin-left: 220px;
+    }
+    .our-trip__body {
+        padding-right: 0;
+    }
+    .our-trip__title{
+        margin-bottom: 10px;
+    }
+    .our-trip__list {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .our-trip__slider-item img {
+        height: 65vh;
+    }
 }
 
 @media (max-width: 370px)
@@ -592,5 +636,4 @@ body{
     .fairy-tail__title span {
         margin-left: 90px;
     }
-}
 }

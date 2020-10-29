@@ -636,4 +636,13 @@ body{
     .fairy-tail__title span {
         margin-left: 90px;
     }
+    .our-trip__title span {
+        margin-left: 182px;
+        line-height: 22px;
+    }
+    .our-trip__btn {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 9px 51px;
+    }
 }

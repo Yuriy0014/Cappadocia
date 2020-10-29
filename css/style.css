@@ -431,11 +431,12 @@ body{
 }
 
 .footer__contacts-title{
+    padding-top: 55px;
     font-family: 'balqis';
     font-size: 86px;
     line-height: 115px;
     color: #E2AB3F;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .footer__email,
@@ -469,4 +470,8 @@ body{
 
 .footer__social{
     margin-top: 38px;
+}
+
+.footer__social a{
+    margin:0 7px;
 }

@@ -495,7 +495,7 @@ body{
 @media (max-width: 990px)
 {
     .page-section {
-        margin: 100px 0;
+        margin-top: 100px;
     }
     .fairy-tail__container,
     .our-trip__container{

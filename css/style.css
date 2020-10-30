@@ -511,6 +511,9 @@ body{
         background-image: none;
         display: flex;
     }
+    .contacts__images{
+        padding-left: 45px;
+    }
 } 
 
 @media (max-width: 990px)
@@ -559,7 +562,7 @@ body{
     }
     .hotel__images {
         object-fit: cover;
-        margin: 0 -20px 15px;
+        margin: 0 -15px 15px;
         height: 60vh;
     }
     .hotel__title{
@@ -577,6 +580,18 @@ body{
     }
     .price__on-title, .price__off-title {
         margin: 30px 30px;
+    }
+    .contacts__inner {
+        flex-direction: column-reverse;
+    }
+    .contacts__images {
+        object-fit: cover;
+        margin: 0 -15px 15px;
+        padding-left:0;
+        height: 60vh;
+    }
+    .contacts__date, .contacts__price {
+        margin: 20px auto;
     }
 }
 
@@ -655,6 +670,28 @@ body{
     }
     .our-trip__slider-item img {
         height: 65vh;
+    }
+}
+
+@media (max-width: 450px){
+    .contacts__date span, .contacts__price span {
+        font-size: 18px;
+        line-height: 20px;
+        margin-left: 160px;
+    }
+    .contacts__form-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 35px;
+    }
+    .contacts__form-input {
+        height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .contacts__form-btn {
+        font-size: 18px;
+        line-height: 22px;
     }
 }
 

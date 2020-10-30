@@ -243,12 +243,18 @@
             </div>
           </div>
           <form class="contacts__form">
+            <!-- Hidden Required Fields -->
+            <input type="hidden" name="project_name" value="Cappadocia_tets_mail">
+            <input type="hidden" name="admin_email" value="knaoyjhcxfvuyokanv@mhzayt.com">
+            <input type="hidden" name="form_subject" value="Near the footer form">
+            <!-- END Hidden Required Fields -->
+          
             <h4 class="contacts__form-title">
               Оставить заявку или задать вопрос
             </h4>
-            <input class="contacts__form-input contacts__form-name" type="text" placeholder="Имя">
-            <input class="contacts__form-input contacts__form-phone" type="text" placeholder="Телефон">
-            <input class="contacts__form-input contacts__form-mail" type="text" placeholder="Почта">
+            <input name="Имя" class="contacts__form-input contacts__form-name" type="text" placeholder="Имя">
+            <input name="Телефон" class="contacts__form-input contacts__form-phone" type="text" placeholder="Телефон">
+            <input name="E-mail" class="contacts__form-input contacts__form-mail" type="text" placeholder="Почта">
             <button class="contacts__form-btn" type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
           </form>
         </div>

@@ -547,9 +547,11 @@ body{
     }
     .hotel__images {
         object-fit: cover;
-        margin: 10px -20px;
-        margin-right: -20px;
+        margin: 0 -20px 15px;
         height: 60vh;
+    }
+    .hotel__title{
+        margin-bottom: 50px;
     }
 }
 

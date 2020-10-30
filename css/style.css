@@ -303,7 +303,7 @@ body{
 
 .price__on{
     margin-right: 70px;
-    width: 530px;
+    max-width: 530px;
 }
 
 .price__list-item{
@@ -479,6 +479,13 @@ body{
     margin:0 7px;
 }
 
+
+@media (max-width: 1500px)
+{
+    .price{
+        background-position: 97% 80%;
+    }
+}
 @media (max-width: 1240px)
 {
     .header__title {
@@ -499,6 +506,11 @@ body{
     }
     .hotel__gallery {
         justify-content: center;
+    }
+    .price {
+        background-image: none;
+        display: flex;
+    }
 } 
 
 @media (max-width: 990px)
@@ -552,6 +564,19 @@ body{
     }
     .hotel__title{
         margin-bottom: 50px;
+    }
+    .price-tite{
+        margin-bottom: 50px;
+    }
+    .price__inner{
+        flex-direction: column;
+        text-align: center;
+    }
+    .price__on{
+        margin-right: 0;
+    }
+    .price__on-title, .price__off-title {
+        margin: 30px 30px;
     }
 }
 
@@ -648,12 +673,13 @@ body{
     }
     .title{
         font-size: 50px;
+        margin-right: 40px;
     }
     .title span{
         font-size: 20px;
     }
     .fairy-tail__title span {
-        margin-left: 90px;
+        margin-left: 55px;
     }
     .our-trip__title span {
         margin-left: 182px;
@@ -663,5 +689,14 @@ body{
         font-size: 20px;
         line-height: 24px;
         padding: 9px 51px;
+    }
+
+    .hotel__title span {
+        margin-left: 63px;
+        line-height: 22px;
+    }
+    .price__on,
+    .price__off {
+        margin: 0 auto;
     }
 }
